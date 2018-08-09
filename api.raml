@@ -2,10 +2,9 @@
 title: Missing nullable property
 version: 1.0
 types:
-  Section:
+  Foo:
     properties:
-      id: number
-  Protocole:
+      bar1: number
+  FooFromBar:
     properties:
-      name: string
-      synthese: Section?
+      bar2: Foo?

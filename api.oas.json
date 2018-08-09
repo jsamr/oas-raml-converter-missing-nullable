@@ -8,29 +8,25 @@
   "paths": {},
   "components": {
     "schemas": {
-      "Section": {
+      "Foo": {
         "properties": {
-          "id": {
+          "bar1": {
             "type": "number"
           }
         },
         "required": [
-          "id"
+          "bar1"
         ],
         "type": "object"
       },
-      "Protocole": {
+      "FooFromBar": {
         "properties": {
-          "name": {
-            "type": "string"
-          },
-          "synthese": {
+          "bar2": {
             "type": "object"
           }
         },
         "required": [
-          "name",
-          "synthese"
+          "bar2"
         ],
         "type": "object"
       }
